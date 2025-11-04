@@ -1,4 +1,6 @@
-# 🌐 AWS Path-Based Routing with Terraform
+![Architecture Diagram](./diagram.png)
+
+# AWS Path-Based Routing with Terraform
 
 This project provisions a complete **path-based routing infrastructure** on **AWS** using **Terraform**.  
 It deploys two EC2 instances (`Red` and `Blue`), hosts static web pages from **S3**, and configures an **Application Load Balancer (ALB)** that routes traffic based on URL paths:
@@ -8,7 +10,7 @@ It deploys two EC2 instances (`Red` and `Blue`), hosts static web pages from **S
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 **Resources Created:**
 - **VPC** → Uses AWS default VPC and subnets  
@@ -21,7 +23,7 @@ It deploys two EC2 instances (`Red` and `Blue`), hosts static web pages from **S
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 terraform-path-based-routing/
@@ -55,7 +57,7 @@ Before you begin, make sure you have:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/terraform-path-based-routing.git
+   git clone https://github.com/Aliko2020/Path-Based-Routing.git
    cd terraform-path-based-routing
    ```
 
@@ -126,5 +128,5 @@ Access:
 ## 👤 Author
 
 **Your Name**  
-📧 your.email@example.com  
-💼 [LinkedIn](https://linkedin.com/in/yourprofile) | 🌍 [Portfolio](https://yourwebsite.com)
+alikoamos7@gmail.com 
+
